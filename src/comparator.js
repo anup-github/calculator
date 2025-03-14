@@ -4,9 +4,9 @@ const compareCodeEfficiency = (sourceStats, migratedStats) => {
         let totalMigrated = { lines: 0, functions: 0, classes: 0, objects: 0, variables: 0, conditions: 0, blocks: 0 };
         let fileComparisons = [];
 
-        const migratedMap = new Map(migratedStats.map(file => [file.file, file]));
+        const migratedMap = new Map((migratedStats || []).map(file => [file.file, file]));
 
-        sourceStats.forEach(sourceFile => {
+        (sourceStats || []).forEach(sourceFile => {
             const migratedFile = migratedMap.get(sourceFile.file);
             if (!migratedFile) {
                 fileComparisons.push({
