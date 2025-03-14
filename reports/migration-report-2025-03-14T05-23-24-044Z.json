@@ -1,0 +1,35 @@
+{
+  "summary": {
+    "lines": "107.69%",
+    "functions": "87.50%",
+    "classes": "100.00%",
+    "objects": "N/A",
+    "variables": "N/A",
+    "conditions": "N/A",
+    "blocks": "N/A"
+  },
+  "details": [
+    {
+      "file": "example.js",
+      "status": "Compared Successfully",
+      "lines": "114.29%",
+      "functions": "66.67%",
+      "classes": "100.00%",
+      "objects": "N/A",
+      "variables": "N/A",
+      "conditions": "N/A",
+      "blocks": "N/A"
+    },
+    {
+      "file": "app.py",
+      "status": "Compared Successfully",
+      "lines": "100.00%",
+      "functions": "100.00%",
+      "classes": "100.00%",
+      "objects": "N/A",
+      "variables": "N/A",
+      "conditions": "N/A",
+      "blocks": "N/A"
+    }
+  ]
+}
