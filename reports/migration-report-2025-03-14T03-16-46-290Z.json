@@ -1,0 +1,23 @@
+{
+  "summary": {
+    "lines": "107.69%",
+    "functions": "87.50%",
+    "classes": "100.00%"
+  },
+  "details": [
+    {
+      "file": "example.js",
+      "status": "Compared Successfully",
+      "lines": "114.29%",
+      "functions": "66.67%",
+      "classes": "100.00%"
+    },
+    {
+      "file": "app.py",
+      "status": "Compared Successfully",
+      "lines": "100.00%",
+      "functions": "100.00%",
+      "classes": "100.00%"
+    }
+  ]
+}
